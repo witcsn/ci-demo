@@ -21,17 +21,16 @@ public class FizzBuzz
 	
 	String processNumbers (int[] numList)
 	{
-		String result = "";
+		StringBuilder result = new StringBuilder();
 		for (int i = 0; i < numList.length; i++)
 		{
-			result += processNumber(numList[i]);
+			result.append(processNumber(numList[i]));
 			if (i < numList.length-1)
 			{
-				result += ", ";
+				result.append(", ");
 			}
 		}
-
-		return result;
+		return result.toString();
 	}
 
 }
