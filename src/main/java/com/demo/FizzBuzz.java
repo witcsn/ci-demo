@@ -30,7 +30,6 @@ public class FizzBuzz
 				result.append(", ");
 			}
 		}
-
 		return result.toString();
 	}
 
