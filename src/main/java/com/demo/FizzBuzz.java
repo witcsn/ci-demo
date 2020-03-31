@@ -31,7 +31,7 @@ public class FizzBuzz
 			}
 		}
 
-		return null;
+		return result;
 	}
 
 }
